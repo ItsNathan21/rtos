@@ -10,5 +10,6 @@ void clr_pend_pendsv() {
     #define PENDSVCLR (1 << 27)
     system_control_block_regset_t *scb = SCB_BASE;
     scb->ICSR |= PENDSVCLR;
+    // test
 }
 
