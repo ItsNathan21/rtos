@@ -1,0 +1,590 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 obj/asm_reset.o
+ .bss           0x00000000        0x0 obj/asm_reset.o
+ .group         0x00000000        0xc obj/kernel_gpio.o
+ .group         0x00000000        0xc obj/kernel_gpio.o
+ .group         0x00000000        0xc obj/kernel_gpio.o
+ .group         0x00000000        0xc obj/kernel_gpio.o
+ .text          0x00000000        0x0 obj/kernel_gpio.o
+ .data          0x00000000        0x0 obj/kernel_gpio.o
+ .bss           0x00000000        0x0 obj/kernel_gpio.o
+ .text.gpio_set
+                0x00000000       0x30 obj/kernel_gpio.o
+ .text.gpio_clr
+                0x00000000       0x30 obj/kernel_gpio.o
+ .text.gpio_read
+                0x00000000       0x38 obj/kernel_gpio.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_handlers.o
+ .text          0x00000000        0x0 obj/kernel_handlers.o
+ .data          0x00000000        0x0 obj/kernel_handlers.o
+ .bss           0x00000000        0x0 obj/kernel_handlers.o
+ .debug_macro   0x00000000      0xaba obj/kernel_handlers.o
+ .debug_macro   0x00000000      0x34e obj/kernel_handlers.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_main.o
+ .text          0x00000000        0x0 obj/kernel_main.o
+ .data          0x00000000        0x0 obj/kernel_main.o
+ .bss           0x00000000        0x0 obj/kernel_main.o
+ .debug_macro   0x00000000      0xaba obj/kernel_main.o
+ .debug_macro   0x00000000      0x34e obj/kernel_main.o
+ .debug_macro   0x00000000       0x22 obj/kernel_main.o
+ .debug_macro   0x00000000       0x60 obj/kernel_main.o
+ .debug_macro   0x00000000       0x24 obj/kernel_main.o
+ .debug_macro   0x00000000       0x94 obj/kernel_main.o
+ .debug_macro   0x00000000       0x3c obj/kernel_main.o
+ .debug_macro   0x00000000      0x103 obj/kernel_main.o
+ .debug_macro   0x00000000       0x3a obj/kernel_main.o
+ .debug_macro   0x00000000       0x89 obj/kernel_main.o
+ .debug_macro   0x00000000      0x379 obj/kernel_main.o
+ .debug_macro   0x00000000       0x10 obj/kernel_main.o
+ .debug_macro   0x00000000       0x22 obj/kernel_main.o
+ .debug_macro   0x00000000       0x10 obj/kernel_main.o
+ .group         0x00000000        0xc obj/kernel_nvic.o
+ .group         0x00000000        0xc obj/kernel_nvic.o
+ .group         0x00000000        0xc obj/kernel_nvic.o
+ .text          0x00000000        0x0 obj/kernel_nvic.o
+ .data          0x00000000        0x0 obj/kernel_nvic.o
+ .bss           0x00000000        0x0 obj/kernel_nvic.o
+ .debug_macro   0x00000000      0xaba obj/kernel_nvic.o
+ .debug_macro   0x00000000      0x34e obj/kernel_nvic.o
+ .debug_macro   0x00000000       0x22 obj/kernel_nvic.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_systick.o
+ .text          0x00000000        0x0 obj/kernel_systick.o
+ .data          0x00000000        0x0 obj/kernel_systick.o
+ .bss           0x00000000        0x0 obj/kernel_systick.o
+ .debug_macro   0x00000000      0xaba obj/kernel_systick.o
+ .debug_macro   0x00000000       0x22 obj/kernel_systick.o
+ .debug_macro   0x00000000       0x60 obj/kernel_systick.o
+ .debug_macro   0x00000000       0x24 obj/kernel_systick.o
+ .debug_macro   0x00000000       0x94 obj/kernel_systick.o
+ .debug_macro   0x00000000       0x3c obj/kernel_systick.o
+ .debug_macro   0x00000000      0x103 obj/kernel_systick.o
+ .debug_macro   0x00000000       0x3a obj/kernel_systick.o
+ .debug_macro   0x00000000      0x34e obj/kernel_systick.o
+ .debug_macro   0x00000000       0x89 obj/kernel_systick.o
+ .debug_macro   0x00000000      0x379 obj/kernel_systick.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_thread.o
+ .text          0x00000000        0x0 obj/kernel_thread.o
+ .data          0x00000000        0x0 obj/kernel_thread.o
+ .bss           0x00000000        0x0 obj/kernel_thread.o
+ .text.clr_pend_pendsv
+                0x00000000       0x24 obj/kernel_thread.o
+ .debug_macro   0x00000000      0xaba obj/kernel_thread.o
+ .debug_macro   0x00000000       0x22 obj/kernel_thread.o
+ .debug_macro   0x00000000       0x60 obj/kernel_thread.o
+ .debug_macro   0x00000000       0x24 obj/kernel_thread.o
+ .debug_macro   0x00000000       0x94 obj/kernel_thread.o
+ .debug_macro   0x00000000       0x3c obj/kernel_thread.o
+ .debug_macro   0x00000000      0x103 obj/kernel_thread.o
+ .debug_macro   0x00000000       0x3a obj/kernel_thread.o
+ .debug_macro   0x00000000      0x34e obj/kernel_thread.o
+ .debug_macro   0x00000000       0x89 obj/kernel_thread.o
+ .debug_macro   0x00000000      0x379 obj/kernel_thread.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .group         0x00000000        0xc obj/kernel_uart.o
+ .text          0x00000000        0x0 obj/kernel_uart.o
+ .data          0x00000000        0x0 obj/kernel_uart.o
+ .bss           0x00000000        0x0 obj/kernel_uart.o
+ .debug_macro   0x00000000      0xaba obj/kernel_uart.o
+ .debug_macro   0x00000000       0x22 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x60 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x24 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x94 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x3c obj/kernel_uart.o
+ .debug_macro   0x00000000      0x103 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x3a obj/kernel_uart.o
+ .debug_macro   0x00000000      0x34e obj/kernel_uart.o
+ .debug_macro   0x00000000       0x89 obj/kernel_uart.o
+ .debug_macro   0x00000000      0x379 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x10 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x10 obj/kernel_uart.o
+ .debug_macro   0x00000000       0xb2 obj/kernel_uart.o
+ .debug_macro   0x00000000       0x2e obj/kernel_uart.o
+ .debug_macro   0x00000000       0x22 obj/kernel_uart.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .group         0x00000000        0xc obj/usercode_user_main.o
+ .text          0x00000000        0x0 obj/usercode_user_main.o
+ .data          0x00000000        0x0 obj/usercode_user_main.o
+ .bss           0x00000000        0x0 obj/usercode_user_main.o
+ .debug_macro   0x00000000      0xaba obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x22 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x60 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x24 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x94 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x3c obj/usercode_user_main.o
+ .debug_macro   0x00000000      0x103 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x3a obj/usercode_user_main.o
+ .debug_macro   0x00000000      0x34e obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x89 obj/usercode_user_main.o
+ .debug_macro   0x00000000      0x379 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x10 obj/usercode_user_main.o
+ .debug_macro   0x00000000       0x10 obj/usercode_user_main.o
+ .data          0x00000000        0x0 obj/userasm_init.o
+ .bss           0x00000000        0x0 obj/userasm_init.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00080000         xr
+RAM              0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/asm_reset.o
+LOAD obj/kernel_gpio.o
+LOAD obj/kernel_handlers.o
+LOAD obj/kernel_main.o
+LOAD obj/kernel_nvic.o
+LOAD obj/kernel_systick.o
+LOAD obj/kernel_thread.o
+LOAD obj/kernel_uart.o
+LOAD obj/usercode_user_main.o
+LOAD obj/userasm_init.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/thumb/v7e-m/nofp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/13.2.1/../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
+END GROUP
+                0x20004000                        PROVIDE (__msp_stack_top = (ORIGIN (RAM) + LENGTH (RAM)))
+
+.isr_vector     0x08000000      0x154
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x152 obj/asm_reset.o
+                0x08000000                isr_vector
+                0x08000150                spin
+                0x08000154                        . = ALIGN (0x4)
+ *fill*         0x08000152        0x2 
+                0x08000154                        _eisr_vector = .
+
+.text           0x08000154      0x6e0
+                0x08000154                        _text_start = .
+ *(.text.reset)
+ *(.text.kernel*)
+ .text.kernel_main
+                0x08000154       0x46 obj/kernel_main.o
+                0x08000154                kernel_main
+ *(.text.user*)
+ *(.swi_stub)
+ *(.text*)
+ *fill*         0x0800019a        0x2 
+ .text          0x0800019c       0x5c obj/asm_reset.o
+                0x0800019c                reset
+ .text.gpio_init
+                0x080001f8       0xcc obj/kernel_gpio.o
+                0x080001f8                gpio_init
+ .text.nmi      0x080002c4        0xe obj/kernel_handlers.o
+                0x080002c4                nmi
+ .text.hard_fault
+                0x080002d2        0xe obj/kernel_handlers.o
+                0x080002d2                hard_fault
+ .text.mm_fault
+                0x080002e0        0xe obj/kernel_handlers.o
+                0x080002e0                mm_fault
+ .text.bus_fault
+                0x080002ee        0xe obj/kernel_handlers.o
+                0x080002ee                bus_fault
+ .text.usage_fault
+                0x080002fc        0xe obj/kernel_handlers.o
+                0x080002fc                usage_fault
+ .text.pendsv_handler
+                0x0800030a        0xe obj/kernel_handlers.o
+                0x0800030a                pendsv_handler
+ .text.USART2_IRQHandler
+                0x08000318       0x40 obj/kernel_handlers.o
+                0x08000318                USART2_IRQHandler
+ .text.systick_handler
+                0x08000358       0x1c obj/kernel_handlers.o
+                0x08000358                systick_handler
+ .text.test_zeroing_bss
+                0x08000374       0x38 obj/kernel_main.o
+                0x08000374                test_zeroing_bss
+ .text.change_interrupt_status
+                0x080003ac       0x9c obj/kernel_nvic.o
+                0x080003ac                change_interrupt_status
+ .text.systick_init
+                0x08000448       0x4c obj/kernel_systick.o
+                0x08000448                systick_init
+ .text.systick_delay
+                0x08000494       0x30 obj/kernel_systick.o
+                0x08000494                systick_delay
+ .text.pend_pendsv
+                0x080004c4       0x24 obj/kernel_thread.o
+                0x080004c4                pend_pendsv
+ .text.uart_init
+                0x080004e8       0xb0 obj/kernel_uart.o
+                0x080004e8                uart_init
+ .text.uart_buf_full
+                0x08000598       0x2e obj/kernel_uart.o
+ .text.uart_buf_empty
+                0x080005c6       0x24 obj/kernel_uart.o
+ *fill*         0x080005ea        0x2 
+ .text.uart_push
+                0x080005ec       0x90 obj/kernel_uart.o
+ .text.uart_pop
+                0x0800067c       0x6c obj/kernel_uart.o
+ .text.USART2_tx_handler
+                0x080006e8       0x34 obj/kernel_uart.o
+                0x080006e8                USART2_tx_handler
+ .text.USART2_rx_handler
+                0x0800071c       0x2c obj/kernel_uart.o
+                0x0800071c                USART2_rx_handler
+ .text.uart_putchar
+                0x08000748       0x60 obj/kernel_uart.o
+                0x08000748                uart_putchar
+ .text.uart_getchar
+                0x080007a8       0x28 obj/kernel_uart.o
+                0x080007a8                uart_getchar
+ .text.uart_puts
+                0x080007d0       0x2c obj/kernel_uart.o
+                0x080007d0                uart_puts
+ .text.__init__
+                0x080007fc       0x1c obj/usercode_user_main.o
+                0x080007fc                __init__
+ .text          0x08000818       0x1c obj/userasm_init.o
+                0x08000818                __pre__init__
+                0x08000834                        _text_end = .
+
+.glue_7         0x08000834        0x0
+ .glue_7        0x08000834        0x0 linker stubs
+
+.glue_7t        0x08000834        0x0
+ .glue_7t       0x08000834        0x0 linker stubs
+
+.vfp11_veneer   0x08000834        0x0
+ .vfp11_veneer  0x08000834        0x0 linker stubs
+
+.v4_bx          0x08000834        0x0
+ .v4_bx         0x08000834        0x0 linker stubs
+
+.iplt           0x08000834        0x0
+ .iplt          0x08000834        0x0 obj/asm_reset.o
+
+.rodata         0x08000834      0x403
+                0x08000c00                        . = ALIGN (0x400)
+ *fill*         0x08000834      0x3cc 
+                0x08000c00                        _k_rodata = .
+ *(.rodata.kernel*)
+                0x08000c00                        . = ALIGN (0x400)
+                0x08000c00                        _u_rodata = .
+ *(.rodata.user*)
+ *(.rodata*)
+ .rodata.gpio_en
+                0x08000c00       0x14 obj/kernel_gpio.o
+                0x08000c00                gpio_en
+ .rodata.gpio_regs
+                0x08000c14        0xc obj/kernel_gpio.o
+                0x08000c14                gpio_regs
+ .rodata        0x08000c20       0x17 obj/usercode_user_main.o
+                0x08000c37                        _u_erodata = .
+                0x08000c37                        _erodata = .
+
+.rel.dyn        0x08000c38        0x0
+ .rel.iplt      0x08000c38        0x0 obj/asm_reset.o
+
+.data           0x20000000        0x0 load address 0x08000c37
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _k_data = .
+ *(.data.kernel*)
+                0x20000000                        . = ALIGN (0x400)
+                0x20000000                        _u_data = .
+ *(.data.user*)
+ *(.data*)
+                0x20000000                        _u_edata = .
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 obj/asm_reset.o
+
+.bss            0x20000000      0x400
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _bss_start = .
+                0x20000000                        _k_bss = .
+ *(.bss.kernel*)
+ *(.bss*)
+ .bss.FibonacciNumbers
+                0x20000000       0x28 obj/kernel_main.o
+                0x20000000                FibonacciNumbers
+ .bss.systick_ticks
+                0x20000028        0x4 obj/kernel_systick.o
+                0x20000028                systick_ticks
+ .bss.uart_tx_buf
+                0x2000002c       0x18 obj/kernel_uart.o
+                0x2000002c                uart_tx_buf
+ .bss.uart_rx_buf
+                0x20000044       0x18 obj/kernel_uart.o
+                0x20000044                uart_rx_buf
+ *(COMMON)
+                0x20000400                        . = ALIGN (0x400)
+ *fill*         0x2000005c      0x3a4 
+                0x20000400                        _u_bss = .
+ *(.bss.user*)
+ *(COMMON)
+                0x20000400                        _u_ebss = .
+                0x00000400                        _bss_size = (_u_ebss - _bss_start)
+                0x00000000                        _data_size = (_u_edata - _k_data)
+                0x20002000                        . = ALIGN (0x2000)
+                0x20002000                        __heap_low = .
+                0x20003000                        . = (. + 0x1000)
+                0x20003000                        __heap_top = .
+                0x20003000                        __psp_stack_bottom = .
+                0x20003800                        . = (. + 0x800)
+                0x20003800                        __psp_stack_top = .
+                0x20003800                        __msp_stack_bottom = .
+                0x20004000                        . = (. + 0x800)
+                0x20004000                        __msp_stack_top = .
+                0x20004000                        __kheap_low_0 = .
+                0x20006000                        . = (. + 0x2000)
+                0x20006000                        __kheap_top_0 = .
+                0x20008000                        . = ALIGN (0x8000)
+                0x20008000                        __thread_u_stacks_low = .
+                0x20010000                        . = (. + 0x8000)
+                0x20010000                        __thread_u_stacks_top = .
+                0x20010000                        __thread_k_stacks_low = .
+                0x20018000                        . = (. + 0x8000)
+                0x20018000                        __thread_k_stacks_top = .
+                0x20018000                        end = .
+OUTPUT(build/kernel.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x21 obj/asm_reset.o
+ .ARM.attributes
+                0x00000021       0x2e obj/kernel_gpio.o
+ .ARM.attributes
+                0x0000004f       0x2e obj/kernel_handlers.o
+ .ARM.attributes
+                0x0000007d       0x2e obj/kernel_main.o
+ .ARM.attributes
+                0x000000ab       0x2e obj/kernel_nvic.o
+ .ARM.attributes
+                0x000000d9       0x2e obj/kernel_systick.o
+ .ARM.attributes
+                0x00000107       0x2e obj/kernel_thread.o
+ .ARM.attributes
+                0x00000135       0x2e obj/kernel_uart.o
+ .ARM.attributes
+                0x00000163       0x2e obj/usercode_user_main.o
+ .ARM.attributes
+                0x00000191       0x21 obj/userasm_init.o
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 obj/kernel_gpio.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026       0x27 obj/kernel_handlers.o
+ .comment       0x00000026       0x27 obj/kernel_main.o
+ .comment       0x00000026       0x27 obj/kernel_nvic.o
+ .comment       0x00000026       0x27 obj/kernel_systick.o
+ .comment       0x00000026       0x27 obj/kernel_thread.o
+ .comment       0x00000026       0x27 obj/kernel_uart.o
+ .comment       0x00000026       0x27 obj/usercode_user_main.o
+
+.debug_line     0x00000000     0x1052
+ .debug_line    0x00000000       0x70 obj/asm_reset.o
+ .debug_line    0x00000070      0x151 obj/kernel_gpio.o
+ .debug_line    0x000001c1      0x290 obj/kernel_handlers.o
+ .debug_line    0x00000451      0x217 obj/kernel_main.o
+ .debug_line    0x00000668       0xd5 obj/kernel_nvic.o
+ .debug_line    0x0000073d      0x1a7 obj/kernel_systick.o
+ .debug_line    0x000008e4      0x185 obj/kernel_thread.o
+ .debug_line    0x00000a69      0x3f3 obj/kernel_uart.o
+ .debug_line    0x00000e5c      0x1a4 obj/usercode_user_main.o
+ .debug_line    0x00001000       0x52 obj/userasm_init.o
+
+.debug_line_str
+                0x00000000       0x32
+ .debug_line_str
+                0x00000000       0x32 obj/asm_reset.o
+                                 0x26 (size before relaxing)
+ .debug_line_str
+                0x00000032       0x2a obj/userasm_init.o
+
+.debug_info     0x00000000     0x1388
+ .debug_info    0x00000000       0x24 obj/asm_reset.o
+ .debug_info    0x00000024      0x4d5 obj/kernel_gpio.o
+ .debug_info    0x000004f9      0x1fc obj/kernel_handlers.o
+ .debug_info    0x000006f5      0x171 obj/kernel_main.o
+ .debug_info    0x00000866      0x15f obj/kernel_nvic.o
+ .debug_info    0x000009c5      0x140 obj/kernel_systick.o
+ .debug_info    0x00000b05      0x1a8 obj/kernel_thread.o
+ .debug_info    0x00000cad      0x5f3 obj/kernel_uart.o
+ .debug_info    0x000012a0       0xc4 obj/usercode_user_main.o
+ .debug_info    0x00001364       0x24 obj/userasm_init.o
+
+.debug_abbrev   0x00000000      0x867
+ .debug_abbrev  0x00000000       0x14 obj/asm_reset.o
+ .debug_abbrev  0x00000014      0x15a obj/kernel_gpio.o
+ .debug_abbrev  0x0000016e      0x14e obj/kernel_handlers.o
+ .debug_abbrev  0x000002bc       0xea obj/kernel_main.o
+ .debug_abbrev  0x000003a6       0xf9 obj/kernel_nvic.o
+ .debug_abbrev  0x0000049f       0xd2 obj/kernel_systick.o
+ .debug_abbrev  0x00000571       0xc3 obj/kernel_thread.o
+ .debug_abbrev  0x00000634      0x192 obj/kernel_uart.o
+ .debug_abbrev  0x000007c6       0x8d obj/usercode_user_main.o
+ .debug_abbrev  0x00000853       0x14 obj/userasm_init.o
+
+.debug_aranges  0x00000000      0x1f0
+ .debug_aranges
+                0x00000000       0x20 obj/asm_reset.o
+ .debug_aranges
+                0x00000020       0x38 obj/kernel_gpio.o
+ .debug_aranges
+                0x00000058       0x58 obj/kernel_handlers.o
+ .debug_aranges
+                0x000000b0       0x28 obj/kernel_main.o
+ .debug_aranges
+                0x000000d8       0x20 obj/kernel_nvic.o
+ .debug_aranges
+                0x000000f8       0x28 obj/kernel_systick.o
+ .debug_aranges
+                0x00000120       0x28 obj/kernel_thread.o
+ .debug_aranges
+                0x00000148       0x68 obj/kernel_uart.o
+ .debug_aranges
+                0x000001b0       0x20 obj/usercode_user_main.o
+ .debug_aranges
+                0x000001d0       0x20 obj/userasm_init.o
+
+.debug_str      0x00000000     0x5770
+ .debug_str     0x00000000     0x5770 obj/asm_reset.o
+                                 0x32 (size before relaxing)
+ .debug_str     0x00005770     0x3d5b obj/kernel_gpio.o
+ .debug_str     0x00005770     0x5049 obj/kernel_handlers.o
+ .debug_str     0x00005770     0x4f9a obj/kernel_main.o
+ .debug_str     0x00005770     0x3a0c obj/kernel_nvic.o
+ .debug_str     0x00005770     0x4e7c obj/kernel_systick.o
+ .debug_str     0x00005770     0x4e78 obj/kernel_thread.o
+ .debug_str     0x00005770     0x5507 obj/kernel_uart.o
+ .debug_str     0x00005770     0x4de9 obj/usercode_user_main.o
+ .debug_str     0x00005770       0x36 obj/userasm_init.o
+
+.debug_rnglists
+                0x00000000      0x120
+ .debug_rnglists
+                0x00000000       0x26 obj/kernel_gpio.o
+ .debug_rnglists
+                0x00000026       0x3d obj/kernel_handlers.o
+ .debug_rnglists
+                0x00000063       0x19 obj/kernel_main.o
+ .debug_rnglists
+                0x0000007c       0x14 obj/kernel_nvic.o
+ .debug_rnglists
+                0x00000090       0x19 obj/kernel_systick.o
+ .debug_rnglists
+                0x000000a9       0x19 obj/kernel_thread.o
+ .debug_rnglists
+                0x000000c2       0x4b obj/kernel_uart.o
+ .debug_rnglists
+                0x0000010d       0x13 obj/usercode_user_main.o
+
+.debug_macro    0x00000000     0x1af7
+ .debug_macro   0x00000000       0x50 obj/kernel_gpio.o
+ .debug_macro   0x00000050      0xaba obj/kernel_gpio.o
+ .debug_macro   0x00000b0a      0x34e obj/kernel_gpio.o
+ .debug_macro   0x00000e58       0xb2 obj/kernel_gpio.o
+ .debug_macro   0x00000f0a       0x2e obj/kernel_gpio.o
+ .debug_macro   0x00000f38       0xd0 obj/kernel_handlers.o
+ .debug_macro   0x00001008       0x22 obj/kernel_handlers.o
+ .debug_macro   0x0000102a       0x60 obj/kernel_handlers.o
+ .debug_macro   0x0000108a       0x24 obj/kernel_handlers.o
+ .debug_macro   0x000010ae       0x94 obj/kernel_handlers.o
+ .debug_macro   0x00001142       0x3c obj/kernel_handlers.o
+ .debug_macro   0x0000117e      0x103 obj/kernel_handlers.o
+ .debug_macro   0x00001281       0x3a obj/kernel_handlers.o
+ .debug_macro   0x000012bb       0x89 obj/kernel_handlers.o
+ .debug_macro   0x00001344      0x379 obj/kernel_handlers.o
+ .debug_macro   0x000016bd       0x10 obj/kernel_handlers.o
+ .debug_macro   0x000016cd       0x10 obj/kernel_handlers.o
+ .debug_macro   0x000016dd       0x22 obj/kernel_handlers.o
+ .debug_macro   0x000016ff       0xc5 obj/kernel_main.o
+ .debug_macro   0x000017c4       0x2d obj/kernel_nvic.o
+ .debug_macro   0x000017f1       0xaf obj/kernel_systick.o
+ .debug_macro   0x000018a0       0xa3 obj/kernel_thread.o
+ .debug_macro   0x00001943      0x115 obj/kernel_uart.o
+ .debug_macro   0x00001a58       0x9f obj/usercode_user_main.o
+
+.debug_frame    0x00000000      0x4cc
+ .debug_frame   0x00000000       0xb0 obj/kernel_gpio.o
+ .debug_frame   0x000000b0      0x110 obj/kernel_handlers.o
+ .debug_frame   0x000001c0       0x5c obj/kernel_main.o
+ .debug_frame   0x0000021c       0x38 obj/kernel_nvic.o
+ .debug_frame   0x00000254       0x60 obj/kernel_systick.o
+ .debug_frame   0x000002b4       0x60 obj/kernel_thread.o
+ .debug_frame   0x00000314      0x184 obj/kernel_uart.o
+ .debug_frame   0x00000498       0x34 obj/usercode_user_main.o

@@ -1,0 +1,12 @@
+This is an RTOS. Do whatever you want with this code if you're reading this.
+
+RTOS for STM f401 board, I think its fun I just made this code to test my C and OS skills
+
+This flashes the code to the STM's flash memory, starting at the isr_vector and according to the linker in linker.ld
+
+To run best, open 3 terminal sessions, and in one run openOCD (./ocd.sh)
+
+In the other, run the makefile which will automatically flash and open GDB
+
+and in the 3rd, run minicom connected to /dev/ttyACM0
+
