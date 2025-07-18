@@ -24,11 +24,6 @@ void usage_fault() {
     breakpoint;
 }
 
-void pendsv_handler() {
-    breakpoint;
-}
-
-
 void USART2_IRQHandler() {
     #define TXE (1 << 7)
     #define RXNE (1 << 5)

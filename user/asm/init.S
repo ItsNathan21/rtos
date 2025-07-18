@@ -14,4 +14,3 @@ __pre__init__:
     msr control, r0
     isb
     b __init__
-    bkpt

@@ -10,6 +10,4 @@ void bus_fault();
 
 void usage_fault();
 
-void pendsv_handler();
-
 void USART1_IRQHandler();

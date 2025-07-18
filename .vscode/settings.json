@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "uart.h": "c",
+        "flash.h": "c"
     },
     "makefile.configureOnOpen": false
 }

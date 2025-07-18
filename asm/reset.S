@@ -141,3 +141,9 @@ bss_loop:
 
 stall:
     bkpt
+
+.thumb_func
+.global pendsv_handler
+pendsv_handler:
+  mrs r0, psp
+  b pendsv_C_handler
