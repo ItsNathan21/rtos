@@ -18,7 +18,7 @@ isr_vector:
     .word   spin                /* 8 RESERVED */
     .word   spin                /* 9 RESERVED*/
     .word   spin                /* 10 RESERVED */
-    .word   spin               /* 11 SV call */
+    .word   svc_handler               /* 11 SV call */
     .word   spin                /* 12 Debug reserved */
     .word   spin                /* 13 RESERVED */
     .word   pendsv_handler           /* 14 PendSV */
@@ -147,3 +147,9 @@ stall:
 pendsv_handler:
   mrs r0, psp
   b pendsv_C_handler
+
+.thumb_func 
+.global svc_handler
+svc_handler:
+  mrs r0, psp
+  b svc_C_handler

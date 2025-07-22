@@ -37,3 +37,4 @@ typedef struct {
 void flash_unlock(void);
 void flash_sector_erase(uint8_t secnum);
 void flash_write_address(volatile uint8_t *address, uint8_t val);
+void flash_write_data(volatile uint8_t *address, uint8_t *data, uint32_t size);

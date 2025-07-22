@@ -42,6 +42,10 @@ extern volatile uint32_t systick_ticks;
 
 void systick_handler() {
     systick_ticks++;
-    pend_pendsv();
+    if (scheduler_ready) pend_pendsv();
+}
+
+void svc_C_handler(uint32_t *psp) {
+    breakpoint;
 }
 

@@ -8,6 +8,8 @@
 
 int32_t FibonacciNumbers[10];
 
+uint8_t data[] = "This is the beginning of sector 7";
+
 
 bool test_zeroing_bss(void) {
     for (int32_t i = 0; i < 10; i++) {
@@ -18,21 +20,16 @@ bool test_zeroing_bss(void) {
     return true;
 }
 
-extern void (__pre__init__(void));
+extern void __pre__init__(void);
 
 int kernel_main() {
 
     if (test_zeroing_bss() == false) return 4;
 
     uart_init();
+    // flash_unlock();
+
     systick_init(1000);
-    flash_unlock();
-    flash_sector_erase(7);
-
-
-    flash_sectors_t *MEM = FLASH_MEM_BASE;
-    flash_write_address(MEM->SEC7, 0x69);
-
     __pre__init__();
     uint8_t c;
     while (1) {

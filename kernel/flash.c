@@ -37,3 +37,9 @@ void flash_write_address(volatile uint8_t *address, uint8_t val) {
     while (flash->SR & BSY);
     flash->CR &= ~PG;
 }
+
+void flash_write_data(volatile uint8_t *address, uint8_t *data, uint32_t size) {
+    for (uint32_t i = 0; i < size; i++) {
+        flash_write_address(address + i, data[i]);
+    }
+}

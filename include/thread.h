@@ -1,4 +1,7 @@
+#include "../include/stdbool.h"
+#include <stdint.h>
 
+bool scheduler_ready = false;
 
 #define MAX_THREADS (64)
 
@@ -24,12 +27,18 @@ typedef struct {
     uint32_t R10;
     uint32_t R11;
     uint32_t lr;
-} msp_stack_exception_t;
+} task_context_t;
 
 typedef struct {
-    
+    int32_t pid;
+    int32_t parent_pid;
+
+
+
+    task_context_t *context;
 } task_t;
 
+task_t threads[MAX_THREADS];
 
 void pend_pendsv(void);
 
