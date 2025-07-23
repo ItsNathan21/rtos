@@ -20,4 +20,6 @@ typedef enum {
 
 void change_interrupt_status(int32_t num, interrupt_state_t state);
 
+int16_t save_interrupt_state_and_disable(void);
 
+void restore_interrupt_state(int32_t state);

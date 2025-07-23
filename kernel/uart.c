@@ -22,7 +22,7 @@
 #define BACKSPACE (0x08)
 
 typedef struct {
-    uint8_t payload[UART_BUFSIZE];
+    volatile uint8_t payload[UART_BUFSIZE];
     volatile uint32_t head;
     volatile uint32_t tail;
 } uart_buf_t;
@@ -94,6 +94,8 @@ void USART2_tx_handler(void) {
     if (uart_pop(&uart_tx_buf, &c)) {
         uart->DR = c;
     }
+    else 
+        uart->CR1 &= ~TXEIE;
 } 
 
 void USART2_rx_handler(void) {
@@ -115,10 +117,15 @@ void uart_getchar(uint8_t *c) {
     while(!uart_pop(&uart_rx_buf, c));
 }
 
+void uart_flush(void) {
+    while (!uart_buf_empty(&uart_tx_buf));
+}
+
 void uart_puts(char *s) {
     while (*s) {
         uart_putchar(*s);
         s++;
     }
 } 
+
 

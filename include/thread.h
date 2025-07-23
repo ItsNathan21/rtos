@@ -1,9 +1,14 @@
 #include "../include/stdbool.h"
 #include <stdint.h>
 
-bool scheduler_ready = false;
+#define MAX_THREADS (32)
+#define NULL (void *)0
 
-#define MAX_THREADS (64)
+typedef enum {
+    UNINITIALIZED = 0,
+    READY = 1, 
+    RUNNING = 2
+} task_state_t;
 
 typedef struct {
     uint32_t R0;
@@ -26,22 +31,35 @@ typedef struct {
     uint32_t R9;
     uint32_t R10;
     uint32_t R11;
-    uint32_t lr;
+    uint32_t LR;
 } task_context_t;
 
 typedef struct {
-    int32_t pid;
-    int32_t parent_pid;
-
-
-
     task_context_t *context;
+    intptr_t psp_top;
+    intptr_t msp_top;
+    task_state_t state;
+    bool svc_status;
 } task_t;
 
-task_t threads[MAX_THREADS];
+typedef struct {
+    void *fn;
+    void *vargp;
+} task_info_t;
 
 void pend_pendsv(void);
 
 void clr_pend_pendsv(void);
 
-void pendsv_C_handler(void);
+task_context_t *pendsv_C_handler(task_context_t *context);
+
+bool _initialize_threads(uint32_t threadnums);
+
+bool _nthread_create(void *fn, void *vargp); 
+
+void _nthread_kill(uint32_t threadnum);
+
+
+bool _nthread_run(uint32_t threadnum);
+
+void _start(void);

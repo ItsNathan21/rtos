@@ -10,7 +10,7 @@ typedef struct {
     volatile uint32_t SHPR1;
     volatile uint32_t SHPR2;
     volatile uint32_t SHPR3;
-    volatile uint32_t SHCRS;
+    volatile uint32_t SHCSR;
     volatile uint32_t CFSR;
     volatile uint32_t MMSR;
     volatile uint32_t BRSR;

@@ -146,7 +146,13 @@ stall:
 .global pendsv_handler
 pendsv_handler:
   mrs r0, psp
-  b pendsv_C_handler
+  push {r0, r4-r11, lr}
+  mrs r0, msp
+  bl pendsv_C_handler
+  msr msp, r0
+  pop {r0, r4-r11, lr}
+  msr psp, r0
+  bx lr
 
 .thumb_func 
 .global svc_handler

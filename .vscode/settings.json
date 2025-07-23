@@ -2,7 +2,8 @@
     "files.associations": {
         "stdbool.h": "c",
         "uart.h": "c",
-        "flash.h": "c"
+        "flash.h": "c",
+        "nvic.h": "c"
     },
     "makefile.configureOnOpen": false
 }

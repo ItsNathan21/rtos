@@ -20,4 +20,5 @@ void USART2_rx_handler(void);
 void uart_putchar(uint8_t c);
 void uart_getchar(uint8_t *c);
 void uart_puts(char *s);
+void uart_flush(void);
 
