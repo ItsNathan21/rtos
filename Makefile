@@ -6,7 +6,7 @@ OBJCOPY = arm-none-eabi-objcopy
 SIZE = arm-none-eabi-size
 
 # Flags
-CFLAGS = -mcpu=cortex-m4 -mthumb -std=gnu11 -O0 -g3 \
+CFLAGS = -mcpu=cortex-m4 -mthumb -std=gnu11 -O3 -g3 \
          -ffunction-sections -fdata-sections \
          -Wall -Wextra -Iinclude -nostdlib
 ASFLAGS = -mcpu=cortex-m4 -mthumb -g3

@@ -29,12 +29,11 @@ int kernel_main() {
     uart_init();
     // flash_unlock();
 
-    systick_init(1000);
     __pre__init__();
     uint8_t c;
     while (1) {
         uart_getchar(&c);
-        systick_delay(1);
+        // systick_delay(1);
         uart_putchar(c);
     }
     breakpoint;

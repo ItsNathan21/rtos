@@ -29,7 +29,6 @@ void thread4() {
 }
 
 int __init__() {
-    uart_puts("Hello from user code!\n");
     initialize_threads(4);
     nthread_create(thread1, (void *)0);
     nthread_create(thread2, (void *)val);
